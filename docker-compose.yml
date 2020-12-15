@@ -10,7 +10,7 @@ services:
   web:
     image: nginx:1.18
     ports:
-      - '10025:80'
+      - '56789:80'
     depends_on:
       - app
     volumes:
